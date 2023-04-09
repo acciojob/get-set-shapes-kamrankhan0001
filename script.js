@@ -5,18 +5,18 @@ class Rectangle {
 		this.height=height;
 }
 get width(){
-	this.width;
+	return this.width;
 }
-set height(){
-	this.height;
+set height(height){
+	this.height=height;
 }
 	getArea(){
-		return length*width;
+		return this.(length*width);
 	}
 }
 class Square extends Rectangle {
 	getPerimeter(){
-		return 2*22/7*radius;
+		return this.(2*22/7*radius);
 	}
 	
 }
