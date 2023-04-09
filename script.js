@@ -11,7 +11,7 @@ get height(){
 	return this.height;
 }
 	getArea(){
-		 return width*height;-
+		 return width*height;
 	}
 }
 // class Square extends Rectangle {
@@ -21,7 +21,7 @@ get height(){
 
   class Square extends Animal {
 	getPerimeter(){
-		return 2*(l+b);
+		return 2*(width+height);
 	}
 }
 
