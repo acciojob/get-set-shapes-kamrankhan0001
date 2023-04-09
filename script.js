@@ -11,17 +11,18 @@ get height(){
 	return this.height;
 }
 	getArea(){
-		return this._width * this._height;
+		 return width*height;-
 	}
 }
-class Square extends Rectangle {
-  constructor(side) {
-    super(side, side);
-  }
+// class Square extends Rectangle {
+//   constructor(side) {
+//     super(side, side);
+//   }
 
-  getPerimeter() {
-    return 4 * this.width;
-  }
+  class Square extends Animal {
+	getPerimeter(){
+		return 2*(l+b);
+	}
 }
 
 // Do not change the code below this line
