@@ -3,14 +3,14 @@ class Rectangle {
     width;
     height;
     constructor(_width,_height){
-        this.width=_width;
-        this.height=_height;
+        this._width=width;
+        this._height=height;
     }
     get width(){
-        return this.width;
+        return this._width;
     }
     get height(){
-        return this.height;
+        return this._height;
     }
 	getArea(){
         return(this.width*this.height);
